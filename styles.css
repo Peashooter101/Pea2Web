@@ -75,7 +75,19 @@ body {
     width: 100%;
     height: auto;
 
+    display: block;
+
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.top-section h1 {
+    font-size: 0.75cm;
+    color: white;
+
+    margin: 0;
+    padding: 0;
+
+    display: block;
 }
 
 /* Centered Box with Content */
@@ -83,7 +95,6 @@ body {
     width: 85%;
     height: auto;
 
-    display: flex;
     justify-content: center;
     align-items: center;
 
@@ -100,6 +111,47 @@ body {
 .centered-content-box h1 {
     color: white;
     font-size: 1cm;
+
+    margin: 10px;
+}
+
+.centered-content-box h2 {
+    color: lightblue;
+    font-size: 0.8cm;
+}
+
+.centered-content-box p {
+    color: white;
+}
+
+.content-box-content {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+}
+
+#content-box-1-top {
+    width: 100%;
+    height: auto;
+
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#content-box-1-left {
+    margin: 10px;
+
+    width: 50%;
+    height: auto;
+}
+
+#content-box-1-right {
+    margin: 10px;
+
+    width: 50%;
+    height: auto;
 }
 
 /* Fonts */
